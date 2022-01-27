@@ -1,6 +1,5 @@
-# SPOTIFY ACCOUNT GENERATOR API
-API for create an spotify account
-
+# SPOTIFY ACCOUNT GENERATOR API (SPOGENTIFY)
+Spogentify is an API for create an spotify account
 
 # HTTP API
 - Endpoint: https://spogentify.herokuapp.com/index.php
