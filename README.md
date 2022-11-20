@@ -2,8 +2,8 @@
 Spogentify is an API for create an spotify account
 
 # HTTP API
-- Endpoint: https://spogentify.herokuapp.com/index.php
-- Method: GET or POST
+- Endpoint: https://spogentify.vercel.app/api/v1
+- Method: GET
 - Parameters:
   - name
   - email
@@ -11,9 +11,7 @@ Spogentify is an API for create an spotify account
   - proxy ***(optional)***
   
  ## Example
-  - GET https://spogentify.herokuapp.com/index.php?name=YOUR_NAME&email=YOUR_VALID_EMAIL&password=YOUR_PASSWORD
-  - POST https://spogentify.herokuapp.com/index.php
-    - payload: `name=YOUR_NAME&email=YOUR_VALID_EMAIL&password=YOUR_PASSWORD`
+  - GET https://spogentify.vercel.app/api/v1?name=YOUR_NAME&email=YOUR_VALID_EMAIL&password=YOUR_PASSWORD
 
  ## Response
   Success ✅
@@ -54,5 +52,5 @@ Spogentify is an API for create an spotify account
   ```
   So, you've to fill the `proxy` parameter with your own proxy or you can report to me (create new issues)
   - Example:
-  
-  **GET** https://spogentify.herokuapp.com/index.php?name=john%20doe&email=john.doe123@gmail.com&password=johndoe1990&proxy=111.68.26.237:8080
+
+  **GET** https://spogentify.vercel.app/api/v1?name=john%20doe&email=john.doe123@gmail.com&password=johndoe1990&proxy=111.68.26.237:8080
